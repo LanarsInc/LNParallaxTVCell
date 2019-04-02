@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D80E025F2110E28040181D2 /* Pods_LNParallaxTVCellExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B89D53788EE17E5E2AE64276 /* Pods_LNParallaxTVCellExample.framework */; };
+		B50D36F32253C28600196D9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50D36F22253C28600196D9D /* AppDelegate.swift */; };
+		B50D36F52253C28600196D9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50D36F42253C28600196D9D /* ViewController.swift */; };
+		B50D36F82253C28600196D9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50D36F62253C28600196D9D /* Main.storyboard */; };
+		B50D36FA2253C28700196D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50D36F92253C28700196D9D /* Assets.xcassets */; };
+		B50D36FD2253C28700196D9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50D36FB2253C28700196D9D /* LaunchScreen.storyboard */; };
+		B58308F922562B9C0084FA3C /* LNParallaxTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58308F822562B9B0084FA3C /* LNParallaxTVCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B061A7DF276CAB4EE405688F /* Pods-LNParallaxTVCellExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNParallaxTVCellExample.debug.xcconfig"; path = "Target Support Files/Pods-LNParallaxTVCellExample/Pods-LNParallaxTVCellExample.debug.xcconfig"; sourceTree = "<group>"; };
+		B50D36EF2253C28600196D9D /* LNParallaxTVCellExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNParallaxTVCellExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50D36F22253C28600196D9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B50D36F42253C28600196D9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B50D36F72253C28600196D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B50D36F92253C28700196D9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B50D36FC2253C28700196D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B50D36FE2253C28700196D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B58308F822562B9B0084FA3C /* LNParallaxTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNParallaxTVCell.swift; sourceTree = "<group>"; };
+		B89D53788EE17E5E2AE64276 /* Pods_LNParallaxTVCellExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LNParallaxTVCellExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E55348F2781D76CFF6B54E /* Pods-LNParallaxTVCellExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNParallaxTVCellExample.release.xcconfig"; path = "Target Support Files/Pods-LNParallaxTVCellExample/Pods-LNParallaxTVCellExample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B50D36EC2253C28600196D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D80E025F2110E28040181D2 /* Pods_LNParallaxTVCellExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		683FD2BB9DC36AA0BA875BDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B89D53788EE17E5E2AE64276 /* Pods_LNParallaxTVCellExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B50D36E62253C28600196D9D = {
+			isa = PBXGroup;
+			children = (
+				B50D36F12253C28600196D9D /* LNParallaxTVCellExample */,
+				B50D36F02253C28600196D9D /* Products */,
+				B5A6AD3DC932723540E0F1B5 /* Pods */,
+				683FD2BB9DC36AA0BA875BDA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B50D36F02253C28600196D9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B50D36EF2253C28600196D9D /* LNParallaxTVCellExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B50D36F12253C28600196D9D /* LNParallaxTVCellExample */ = {
+			isa = PBXGroup;
+			children = (
+				B58308F722562B7D0084FA3C /* LNParallaxTVCell */,
+				B50D36F22253C28600196D9D /* AppDelegate.swift */,
+				B50D36F42253C28600196D9D /* ViewController.swift */,
+				B50D36F62253C28600196D9D /* Main.storyboard */,
+				B50D36F92253C28700196D9D /* Assets.xcassets */,
+				B50D36FB2253C28700196D9D /* LaunchScreen.storyboard */,
+				B50D36FE2253C28700196D9D /* Info.plist */,
+			);
+			path = LNParallaxTVCellExample;
+			sourceTree = "<group>";
+		};
+		B58308F722562B7D0084FA3C /* LNParallaxTVCell */ = {
+			isa = PBXGroup;
+			children = (
+				B58308F822562B9B0084FA3C /* LNParallaxTVCell.swift */,
+			);
+			path = LNParallaxTVCell;
+			sourceTree = "<group>";
+		};
+		B5A6AD3DC932723540E0F1B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B061A7DF276CAB4EE405688F /* Pods-LNParallaxTVCellExample.debug.xcconfig */,
+				F5E55348F2781D76CFF6B54E /* Pods-LNParallaxTVCellExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B50D36EE2253C28600196D9D /* LNParallaxTVCellExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50D37012253C28700196D9D /* Build configuration list for PBXNativeTarget "LNParallaxTVCellExample" */;
+			buildPhases = (
+				5BCDAD4F552036DDB7A4449A /* [CP] Check Pods Manifest.lock */,
+				B50D36EB2253C28600196D9D /* Sources */,
+				B50D36EC2253C28600196D9D /* Frameworks */,
+				B50D36ED2253C28600196D9D /* Resources */,
+				91FA4C2BD7CDBE4C11A3AFDC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LNParallaxTVCellExample;
+			productName = LNParallaxTVCellExample;
+			productReference = B50D36EF2253C28600196D9D /* LNParallaxTVCellExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B50D36E72253C28600196D9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Konstantin;
+				TargetAttributes = {
+					B50D36EE2253C28600196D9D = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = B50D36EA2253C28600196D9D /* Build configuration list for PBXProject "LNParallaxTVCellExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B50D36E62253C28600196D9D;
+			productRefGroup = B50D36F02253C28600196D9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B50D36EE2253C28600196D9D /* LNParallaxTVCellExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B50D36ED2253C28600196D9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50D36FD2253C28700196D9D /* LaunchScreen.storyboard in Resources */,
+				B50D36FA2253C28700196D9D /* Assets.xcassets in Resources */,
+				B50D36F82253C28600196D9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BCDAD4F552036DDB7A4449A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LNParallaxTVCellExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91FA4C2BD7CDBE4C11A3AFDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LNParallaxTVCellExample/Pods-LNParallaxTVCellExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LNParallaxTVCellExample/Pods-LNParallaxTVCellExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LNParallaxTVCellExample/Pods-LNParallaxTVCellExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B50D36EB2253C28600196D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50D36F52253C28600196D9D /* ViewController.swift in Sources */,
+				B50D36F32253C28600196D9D /* AppDelegate.swift in Sources */,
+				B58308F922562B9C0084FA3C /* LNParallaxTVCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B50D36F62253C28600196D9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B50D36F72253C28600196D9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B50D36FB2253C28700196D9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B50D36FC2253C28700196D9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B50D36FF2253C28700196D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B50D37002253C28700196D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B50D37022253C28700196D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B061A7DF276CAB4EE405688F /* Pods-LNParallaxTVCellExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J79K3765T9;
+				INFOPLIST_FILE = LNParallaxTVCellExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanars.LNParallaxTVCellExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B50D37032253C28700196D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E55348F2781D76CFF6B54E /* Pods-LNParallaxTVCellExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J79K3765T9;
+				INFOPLIST_FILE = LNParallaxTVCellExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanars.LNParallaxTVCellExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B50D36EA2253C28600196D9D /* Build configuration list for PBXProject "LNParallaxTVCellExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50D36FF2253C28700196D9D /* Debug */,
+				B50D37002253C28700196D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50D37012253C28700196D9D /* Build configuration list for PBXNativeTarget "LNParallaxTVCellExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50D37022253C28700196D9D /* Debug */,
+				B50D37032253C28700196D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B50D36E72253C28600196D9D /* Project object */;
+}
